@@ -5,7 +5,7 @@ class ntp::params {
   $config_file_mode   = '0664'
   $servers            = ['paka.1', 'paka.2', 'paka.3']
   $service_ensure     = 'running'
-  $ervice_enable      = true
+  $service_enable      = true
   $service_hasstatus  = true
   $service_hasrestart = true
 
