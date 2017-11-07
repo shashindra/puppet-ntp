@@ -6,7 +6,7 @@ class ntp(
   Array[String] $servers      = $::ntp::params::servers,
   String $service_name        = $::ntp::params::service_name,
   String $service_ensure      = $::ntp::params::service_ensure,
-  Boolean $ervice_enable      = $::ntp::params::service_enable,
+  Boolean $service_enable      = $::ntp::params::service_enable,
   Boolean $service_hasstatus  = $::ntp::params::service_hasstatus,
   Boolean $service_hasrestart = $::ntp::params::service_hasrestart,
 )inherits ::ntp::params {
